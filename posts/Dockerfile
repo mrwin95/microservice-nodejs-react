@@ -11,7 +11,7 @@ RUN npm i && npm cache clean --force
 
 WORKDIR /posts/app
 
-COPY ./ ./
+COPY . .
 
 CMD ["npm", "start"]
 
